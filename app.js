@@ -34,7 +34,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * 3 + 1); //arrumar isso, os numeros só se acerta um chute entre 1 a 3.
+    return parseInt(Math.random() * 10 + 1);
 }
 
 function limparCampo() {
